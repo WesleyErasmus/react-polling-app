@@ -1,0 +1,34 @@
+.poll-container {
+    font-weight: bold;
+    width: 37vw;
+    padding: 20px;
+    border-radius: 7px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.poll-heading-label {
+    margin-bottom: 10px;
+}
+
+label {
+    padding: 10px 0;
+}
+.radio-buttons {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.vote-button {
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+    transform: translate(10px, 10px);
+}
+
+.poll-footer-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}

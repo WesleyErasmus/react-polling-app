@@ -1,0 +1,6 @@
+/* Polls App Font */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+/* Universal CSS selector */
+* {
+    font-family: 'Open Sans', sans-serif;
+}
