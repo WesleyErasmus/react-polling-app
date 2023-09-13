@@ -18,15 +18,15 @@ const Poll = (props) => {
         </div>
         <div className="radio-buttons">
           <label>
-            <input type="radio" value="Python" name="python" />
+            <input type="radio" value="python" name="language" />
             Python
           </label>
           <label>
-            <input type="radio" value="JavaScript" name="javascript" />
+            <input type="radio" value="javascript" name="language" />
             JavaScript
           </label>
           <label>
-            <input type="radio" value="Go" name="go" />
+            <input type="radio" value="go" name="language" />
             Go
           </label>
         </div>
