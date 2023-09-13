@@ -8,6 +8,7 @@
 
 .poll-heading-label {
     margin-bottom: 10px;
+    font-size: calc(13px + 0.3rem);
 }
 
 label {
