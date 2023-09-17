@@ -5,6 +5,10 @@ import React from "react";
 import "../styles/poll.css";
 import VoteButton from "./VoteButton";
 import VoterImage from "./VoterImage";
+import CheckCircleIcon from "@mui/icons-material/CheckCircle";
+
+
+
 
 const Poll = () => {
   return (
@@ -22,7 +26,12 @@ const Poll = () => {
             Python
           </label>
           <label>
-            <input type="radio" value="javascript" name="language" />
+            <input
+              checked
+              type="radio"
+              value="javascript"
+              name="language"
+            />
             JavaScript
           </label>
           <label>

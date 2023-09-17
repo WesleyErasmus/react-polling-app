@@ -1,24 +1,52 @@
+/* import CheckCircleIcon from '@mui/icons-material/CheckCircle'; */
+
 .poll-container {
-    font-weight: bold;
     width: 35rem;
     padding: 20px;
     border-radius: 7px;
-    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    box-shadow: var(--box-shadow);
 }
 
 .poll-heading {
     margin-bottom: 10px;
     font-size: calc(13px + 0.3rem);
+    font-weight: 900;
 }
 
 label {
     padding: 10px 0;
+    /* Flex align items */
+    display: flex;
+    align-items: center;
 }
 .radio-buttons {
     display: flex;
     flex-direction: column;
     margin-bottom: 20px;
 }
+
+/*  */
+input[type="radio"] {
+    /* Hides default radio button  */
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    width: 17px;
+    height: 17px;
+    border-radius: 50%;
+    outline: none;
+    border: 1px solid lightgrey;
+    cursor: pointer;
+
+}
+
+input[type="radio"]:checked::before {
+    display: block;
+    text-align: center;
+    line-height: 17px;
+    content: "\237B";
+}
+/*  */
 
 .vote-button {
     position: absolute;

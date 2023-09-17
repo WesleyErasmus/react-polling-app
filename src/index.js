@@ -2,6 +2,8 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import App from './App';
 import reportWebVitals from "./reportWebVitals";
+// Global Stylesheet
+import "./styles/global.css";
 
 // Fonts (Open Sans)
 import './styles/fonts.css'
