@@ -6,12 +6,12 @@ import "../styles/poll.css";
 import VoteButton from "./VoteButton";
 import VoterImage from "./VoterImage";
 
-const Poll = (props) => {
+const Poll = () => {
   return (
     <div className="poll-container">
       {/* Polls Form */}
       <form>
-        <div className="poll-heading-label">
+        <div className="poll-heading">
           <div>
             What programming language do you use during the coding interview?
           </div>

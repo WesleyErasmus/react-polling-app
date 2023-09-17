@@ -1,4 +1,4 @@
-export const votersData = [
+export const userData = [
   {
     id: 0,
     vote: 'Python',

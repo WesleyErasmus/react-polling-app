@@ -1,12 +1,12 @@
 import React from "react";
-import { votersData } from "../services/votersData";
+import { userData } from "../services/userData";
 import '../styles/voterImage.css'
 
 const VoterImage = () => {
   return (
     <div className="voter-images-container">
-      {votersData.map((voterData) => (
-        <img className="voter-image" src={voterData.voterImg} alt="voter" />
+      {userData.map((userData) => (
+        <img key={userData.id} className="voter-image" src={userData.voterImg} alt="voter" />
       ))}
     </div>
   );
